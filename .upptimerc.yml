@@ -6,6 +6,7 @@ sites:
   - name: Hypervisor - Infrastructure
     url: 88.99.249.215
     type: globalping
+    check: tcp-ping
     location: u-rikvisser-dev
 
   - name: Dokploy - Dashboard
