@@ -7,10 +7,12 @@ sites:
     url: 88.99.249.215
     check: icmp-ping
     type: globalping
+    location: rikvisser-dev
 
   - name: Dokploy - Dashboard
     url: https://dokploy.sonicverse.eu
     type: globalping
+    location: rikvisser-dev
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
